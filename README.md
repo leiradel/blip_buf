@@ -8,6 +8,8 @@ The code was changed to remove the memory allocations, which are now the caller'
 
 The API is well documented and straightforward to use. There are some demo programs to check. Copy `blip_buf.h` and `blip_buf.c` to your project to build.
 
+Also check the original [readme.txt](readme.txt).
+
 ## Version
 
 1.1.0
