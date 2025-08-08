@@ -8,7 +8,7 @@ The code was changed to remove the memory allocations, which are now the caller'
 
 The API is well documented and straightforward to use. There are some demo programs to check. Copy `blip_buf.h` and `blip_buf.c` to your project to build.
 
-Also check the original [readme.txt](readme.txt).
+Also check the original [readme.txt](readme.txt), and a [tutorial](tutorial/README.md) converting a SN76489 PSG to use blip_buf.
 
 ## Version
 
