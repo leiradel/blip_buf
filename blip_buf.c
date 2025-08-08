@@ -115,7 +115,7 @@ int blip_required_size( int size )
 	return sizeof (blip_t) + (size + buf_extra) * sizeof (buf_t);
 }
 
-void blip_new( blip_t* m, int size )
+void blip_init( blip_t* m, int size )
 {
 	assert( size >= 0 );
 	

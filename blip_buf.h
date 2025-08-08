@@ -14,13 +14,13 @@ is changed. */
 typedef struct blip_t blip_t;
 
 /** Returns the number of bytes that must be allocated for the blit_t pointer
-that is passed to blip_new, which must be called with the same sample_count. */
+that is passed to blip_new. */
 int blip_required_size( int sample_count );
 
 /** Creates new buffer that can hold at most sample_count samples. Sets rates
 so that there are blip_max_ratio clocks per sample. Returns pointer to new
 buffer, or NULL if insufficient memory. */
-void blip_new( blip_t*, int sample_count );
+void blip_init( blip_t*, int sample_count );
 
 /** Sets approximate input clock rate and output sample rate. For every
 clock_rate input clocks, approximately sample_rate samples are generated. */
